@@ -136,3 +136,17 @@ footer a {
     border-left: 4px solid #1d5b91;
     padding: 14px;
 }
+
+/* Milestone 2: simple quiz form styles */
+.quiz-question { background: white; border: 1px solid #d8e2ed; border-radius: 8px; padding: 18px; margin-bottom: 15px; }
+.quiz-question legend { font-weight: bold; padding: 0 5px; }
+.quiz-question label { display: block; margin: 9px 0; cursor: pointer; }
+.quiz-question input[type="text"] { padding: 9px; width: 90%; max-width: 420px; border: 1px solid #8a9db0; border-radius: 4px; }
+button { padding: 11px 17px; border: 0; border-radius: 5px; background: #125b96; color: white; cursor: pointer; margin-right: 8px; }
+button:hover { background: #0b3e6b; }
+#timer { font-weight: bold; font-size: 1.2rem; }
+.correct { color: #17622b; } .incorrect { color: #a12222; }
+.feedback { margin-top: 8px; font-size: .95rem; }
+#results { margin-top: 20px; }
+#results[hidden] { display: none; }
+@media(max-width:600px) { .hero, .card { padding: 16px; } }
